@@ -1,0 +1,14 @@
+{
+  "name" : "my-app",
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^23.1.1",
+    "electron-i18n": "^1.3136.0",
+    "uview-ui": "^2.0.35"
+  },
+  "scripts": {
+    "start": "electron .",
+    "server": "wait-on tcp:3000 && cross-env NODE_ENV=development electron ."
+  }
+}
